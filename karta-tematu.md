@@ -20,7 +20,7 @@ System automatycznej klasyfikacji zgłoszeń klientów
 
 ## 3\. Tytuł (EN)
 
-Automated customer ticket submission system
+Automated customer ticket classification system
 
 ## 4\. Problem — co system ma robić i dla kogo (3–5 zdań)
 
