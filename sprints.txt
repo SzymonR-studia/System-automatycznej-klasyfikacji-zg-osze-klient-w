@@ -8,15 +8,15 @@ Szymon Ratajczak
 
 Zrobiłem/zrobiłam: Zaimplementowałem interfejs użytkownika z wykorzystaniem Streamlit
 
-Na następne zajęcia zrobię: Skońę prace nad kodem i dodam opcjonalne cele
+Na następne zajęcia zrobię: Skończę prace nad kodem i dodam opcjonalne cele
 
 
 
-[Imię Nazwisko]
+Weronika Brandkiewicz
 
-Zrobiłem/zrobiłam: ...
+Zrobiłem/zrobiłam: Analizowałam zbiór danych Banking77
 
-Na następne zajęcia zrobię: ...
+Na następne zajęcia zrobię: Sprawdzę dane, przeprowadzę analizę wyników modelu i dokumentację danych
 
 
 
