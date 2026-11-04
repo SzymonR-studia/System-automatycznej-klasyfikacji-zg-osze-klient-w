@@ -20,11 +20,11 @@ Na następne zajęcia zrobię: Sprawdzę dane, przeprowadzę analizę wyników m
 
 
 
-[Imię Nazwisko]
+Milena Mazurek
 
-Zrobiłem/zrobiłam: ...
+Zrobiłem/zrobiłam: Zaczęłam pracę nad dokumentacją
 
-Na następne zajęcia zrobię: ...
+Na następne zajęcia zrobię: Będę kontynuować pracę nad dokumentacją
 
 
 Blokuje nas: nic
