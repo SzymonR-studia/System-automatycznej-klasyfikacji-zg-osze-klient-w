@@ -10,9 +10,9 @@ Oddajecie mailem do **22.10, 16:45**, temat `SI L2 · Z<nr zespołu> · karta`.
 
 |Imię i nazwisko|Nr albumu|Rola (wstępna)|
 |-|-|-|
-|Weronika Brandkiewicz|31062|implementacja i trenowanie modelu SI|
-|Szymon Ratajczak|31081|przygotowanie danych i rozwój modelu SI|
-|Milena Mazurek|31837|testowanie i ocena skuteczności modelu SI|
+|Weronika Brandkiewicz|31062|konfiguracja środowiska, przygotowanie i analiza danych; wspólna praca nad projektem na Discordzie|
+|Szymon Ratajczak|31081|rozwój modelu SI (TF-IDF i Logistic Regression) oraz aplikacji Streamlit; wspólna praca nad projektem na Discordzie|
+|Milena Mazurek|31837|testowanie i ocena skuteczności modelu, analiza metryk i dokumentacja; wspólna praca nad projektem na Discordzie|
 
 ## 2\. Roboczy tytuł (PL)
 

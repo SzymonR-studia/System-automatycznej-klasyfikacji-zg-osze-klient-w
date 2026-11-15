@@ -3,7 +3,7 @@ import joblib
 import streamlit as st
 
 project_dir = Path(__file__).resolve().parent.parent
-model_path = project_dir / "models" / "banking77_model.joblib"
+model_path = f"{project_dir}/models/banking77_model.joblib"
 
 model = joblib.load(model_path)
 
