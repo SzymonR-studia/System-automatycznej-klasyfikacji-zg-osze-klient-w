@@ -7,6 +7,8 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.pipeline import Pipeline
 from sklearn.metrics import accuracy_score, classification_report, f1_score
 
+from keyword_baseline import predict_keyword_baseline
+
 
 def main():
     # Ścieżki do danych
@@ -59,6 +61,26 @@ def main():
 
     print("\nRaport klasyfikacji:", flush=True)
     print(classification_report(y_test, predictions), flush=True)
+
+    fallback_label = y_train.value_counts().idxmax()
+    keyword_predictions = predict_keyword_baseline(X_test, fallback_label)
+    keyword_accuracy = accuracy_score(y_test, keyword_predictions)
+    keyword_macro_f1 = f1_score(y_test, keyword_predictions, average="macro")
+
+    print("\nPunkt odniesienia: reguły słów kluczowych", flush=True)
+    print(f"Accuracy: {keyword_accuracy:.4f}", flush=True)
+    print(f"Macro F1: {keyword_macro_f1:.4f}", flush=True)
+    print("\nPorównanie wyników:", flush=True)
+    print(
+        f"Model TF-IDF + Logistic Regression: "
+        f"accuracy={accuracy:.4f}, macro F1={macro_f1:.4f}",
+        flush=True,
+    )
+    print(
+        f"Reguły słów kluczowych: "
+        f"accuracy={keyword_accuracy:.4f}, macro F1={keyword_macro_f1:.4f}",
+        flush=True,
+    )
 
     # Zapisujemy dokładnie ten model, który został oceniony powyżej.
     models_dir = project_dir / "models"
