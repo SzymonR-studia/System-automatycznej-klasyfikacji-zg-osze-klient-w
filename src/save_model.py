@@ -9,7 +9,7 @@ from sklearn.pipeline import Pipeline
 
 def main():
     project_dir = Path(__file__).resolve().parent.parent
-    data_dir = project_dir / "data" / "raw"
+    data_dir = project_dir / "data" / "processed"
     models_dir = project_dir / "models"
 
     train_df = pd.read_csv(data_dir / "banking77_train.csv")

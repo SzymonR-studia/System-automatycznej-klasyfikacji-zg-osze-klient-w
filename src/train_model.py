@@ -10,7 +10,7 @@ from sklearn.metrics import accuracy_score, classification_report
 def main():
     # Ścieżki do danych
     project_dir = Path(__file__).resolve().parent.parent
-    data_dir = project_dir / "data" / "raw"
+    data_dir = project_dir / "data" / "processed"
 
     train_path = data_dir / "banking77_train.csv"
     test_path = data_dir / "banking77_test.csv"
