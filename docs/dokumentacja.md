@@ -29,7 +29,7 @@ Klasyfikator jest pipeline'em scikit-learn z `TfidfVectorizer` oraz `LogisticReg
 
 Skrypt `src/train_model.py` wypisuje accuracy, macro F1 i raport klasyfikacji. Porównuje także model z prostym baseline'em regułowym, który dopasowuje frazy do intencji, a przy braku dopasowania wybiera najczęstszą etykietę ze zbioru treningowego.
 
-Kryterium sukcesu z karty tematu to macro F1 co najmniej 0,80. Wyniki modelu i baseline'u należy uzupełnić po uruchomieniu oceny; nie zostały jeszcze zmierzone.
+Kryterium sukcesu z karty tematu to macro F1 co najmniej 0,80. W pomiarze na niezależnym zbiorze testowym model osiągnął macro F1 **0,8897**, więc przekroczył próg. Baseline słów kluczowych uzyskał macro F1 **0,1372**.
 
 ```bash
 python src/train_model.py
@@ -51,5 +51,5 @@ Użytkownik wpisuje treść zgłoszenia po angielsku. Aplikacja wyświetla przew
 
 | Metoda | Accuracy | Macro F1 |
 |---|---:|---:|
-| TF-IDF + Logistic Regression | do uzupełnienia po ocenie | do uzupełnienia po ocenie |
-| Baseline słów kluczowych | do uzupełnienia po ocenie | do uzupełnienia po ocenie |
+| TF-IDF + Logistic Regression | 0,8886 | 0,8897 |
+| Baseline słów kluczowych | 0,1129 | 0,1372 |
