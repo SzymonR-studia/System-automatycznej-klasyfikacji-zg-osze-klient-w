@@ -6,7 +6,7 @@ Zobowiązanie z poprzednich zajęć:
 
 Szymon Ratajczak
 
-Zrobiłem/zrobiłam:
+Zrobiłem/zrobiłam: Uporządkowałem trenowanie, ocenę i zapis modelu TF-IDF + Logistic Regression, dostosowałem aplikację do wyświetlania polskich nazw 35 intencji i usunąłem demonstracyjny klasyfikator.
 
 Na następne zajęcia zrobię:
 
@@ -41,7 +41,7 @@ Zobowiązanie z poprzednich zajęć: praca nad kodem – zrobione
 
 Szymon Ratajczak
 
-Zrobiłem/zrobiłam: Uporządkowałem trenowanie, ocenę i zapis modelu TF-IDF + Logistic Regression, dostosowałem aplikację do wyświetlania polskich nazw 35 intencji i usunąłem demonstracyjny klasyfikator.
+Zrobiłem/zrobiłam: Zaimplementowałem interfejs użytkownika z wykorzystaniem Streamlit
 
 Na następne zajęcia zrobię: Skończę prace nad kodem i dodam opcjonalne cele
 
