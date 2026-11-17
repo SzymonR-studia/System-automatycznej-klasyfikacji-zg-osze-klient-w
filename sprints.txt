@@ -1,3 +1,38 @@
+=== Sprint 19.11 ===
+
+Zobowiązanie z poprzednich zajęć:
+
+
+
+Szymon Ratajczak
+
+Zrobiłem/zrobiłam:
+
+Na następne zajęcia zrobię:
+
+
+
+Weronika Brandkiewicz
+
+Zrobiłam: Przygotowałam filtrowanie zbiorów treningowego i testowego Banking77 do 35 wybranych intencji. Zachowałam oryginalny podział train/test, dodałam czytelne nazwy etykiet i zapisałam przetworzone dane w osobnym katalogu.
+
+Na następne zajęcia zrobię:
+
+
+
+Milena Mazurek
+
+Zrobiłem/zrobiłam:
+
+Na następne zajęcia zrobię:
+
+
+Blokuje nas:
+
+Zobowiązanie zespołu na następne zajęcia:
+
+
+
 === Sprint 5.11 ===
 
 Zobowiązanie z poprzednich zajęć: praca nad kodem – zrobione
