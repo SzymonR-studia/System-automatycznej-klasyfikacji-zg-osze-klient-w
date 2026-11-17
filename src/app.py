@@ -36,4 +36,4 @@ if st.button("Klasyfikuj zgłoszenie"):
             st.success(f"Przewidywana kategoria: {display_name}")
 
     else:
-        st.warning("Wpisz treść zgłoszenia.")
+        st.warning("Wpisz treść zgłoszenia.") 
