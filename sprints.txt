@@ -22,7 +22,7 @@ Na następne zajęcia zrobię:
 
 Milena Mazurek
 
-Zrobiłem/zrobiłam:
+Zrobiłem/zrobiłam: Dodałam raportowanie accuracy i macro F1 z progiem 0,80 oraz baseline słów kluczowych z porównaniem wyników. Przygotowałam dokumentację po polsku, README i angielskie streszczenie techniczne.
 
 Na następne zajęcia zrobię:
 
